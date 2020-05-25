@@ -17,3 +17,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+cat = 44;
+catbyrow = 6;
+
+file = cat/catbyrow;
+filepulite = Math.ceil(file);
+
+totalegatti = catbyrow*filepulite;
+
+gattiavanzati = totalegatti - cat;
+
+console.log('numero di file: ' + filepulite);
+console.log('numero di gatti mancanti nell\'ultima fila: ' + gattiavanzati);
